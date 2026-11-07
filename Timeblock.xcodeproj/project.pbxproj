@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0CE9A318BB940E43ABB452 /* TimeblockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F040D42EC49CEBA26AEE57E8 /* TimeblockApp.swift */; };
+		0D6B5B4E1296C3B6D01979CA /* BlockRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9FC5E2148834A7A2383A82 /* BlockRowView.swift */; };
+		149A729ECDB2D24E74F35D74 /* BlockEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168F02D6DD4304138637455D /* BlockEditorSheet.swift */; };
+		1A5DBF386DC3A3038F8DBC20 /* PlanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7D1A7309D7DDCC3F29F52 /* PlanListView.swift */; };
+		4F189E6918AD35536D547D45 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E1051139DE778DB52C2F0 /* NotificationService.swift */; };
+		57E616EFCCAD0F362253C241 /* PlanRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647383CEF2DBAA80DED683E0 /* PlanRepository.swift */; };
+		5FCD29298A986E3623BF0A44 /* DailyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31188B4DEEA366FB20A34B99 /* DailyPlan.swift */; };
+		74AC86F690A0555760D4F0D6 /* TimerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042DC1812109D7AB6BB3979 /* TimerEngine.swift */; };
+		8BD283285E8189A0ADE1B9D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C6E775BD83372F11F0160E /* AppDelegate.swift */; };
+		A07064C63D360066C1914E65 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444535EEAA9A15C397944149 /* Block.swift */; };
+		BFF914599986066AAA30215E /* PopoverRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46C40B45188DECF039037D /* PopoverRootView.swift */; };
+		C5EF0B94BF3ED25321E71D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98BA9D3909CEB86C4F1215D /* Assets.xcassets */; };
+		CBD8036B21B269A6FFC39D2C /* TimerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4DC4591D7FEF09AEA8826F /* TimerHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ED7D1A7309D7DDCC3F29F52 /* PlanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListView.swift; sourceTree = "<group>"; };
+		168F02D6DD4304138637455D /* BlockEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockEditorSheet.swift; sourceTree = "<group>"; };
+		1E4DC4591D7FEF09AEA8826F /* TimerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerHeaderView.swift; sourceTree = "<group>"; };
+		2E927EA02E79EF49630BED09 /* Timeblock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeblock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31188B4DEEA366FB20A34B99 /* DailyPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlan.swift; sourceTree = "<group>"; };
+		33B4B2524F02F956BA8DC759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		437E1051139DE778DB52C2F0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		444535EEAA9A15C397944149 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		647383CEF2DBAA80DED683E0 /* PlanRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanRepository.swift; sourceTree = "<group>"; };
+		7D46C40B45188DECF039037D /* PopoverRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverRootView.swift; sourceTree = "<group>"; };
+		9D9FC5E2148834A7A2383A82 /* BlockRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockRowView.swift; sourceTree = "<group>"; };
+		A98BA9D3909CEB86C4F1215D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D042DC1812109D7AB6BB3979 /* TimerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerEngine.swift; sourceTree = "<group>"; };
+		E7C6E775BD83372F11F0160E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F040D42EC49CEBA26AEE57E8 /* TimeblockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeblockApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		034CBADCC4638137FF038529 = {
+			isa = PBXGroup;
+			children = (
+				EA164694DD354AFF8F715DB7 /* Timeblock */,
+				11200D4373F6204017404D1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11200D4373F6204017404D1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E927EA02E79EF49630BED09 /* Timeblock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AFB2AB7CBB511CFE28708B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				168F02D6DD4304138637455D /* BlockEditorSheet.swift */,
+				9D9FC5E2148834A7A2383A82 /* BlockRowView.swift */,
+				0ED7D1A7309D7DDCC3F29F52 /* PlanListView.swift */,
+				7D46C40B45188DECF039037D /* PopoverRootView.swift */,
+				1E4DC4591D7FEF09AEA8826F /* TimerHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BD1008D9D4CA73FFE0E8D38 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				437E1051139DE778DB52C2F0 /* NotificationService.swift */,
+				647383CEF2DBAA80DED683E0 /* PlanRepository.swift */,
+				D042DC1812109D7AB6BB3979 /* TimerEngine.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EA164694DD354AFF8F715DB7 /* Timeblock */ = {
+			isa = PBXGroup;
+			children = (
+				E7C6E775BD83372F11F0160E /* AppDelegate.swift */,
+				A98BA9D3909CEB86C4F1215D /* Assets.xcassets */,
+				33B4B2524F02F956BA8DC759 /* Info.plist */,
+				F040D42EC49CEBA26AEE57E8 /* TimeblockApp.swift */,
+				EB08F1661031C6EA8C1A3540 /* Models */,
+				2BD1008D9D4CA73FFE0E8D38 /* Services */,
+				2AFB2AB7CBB511CFE28708B6 /* Views */,
+			);
+			path = Timeblock;
+			sourceTree = "<group>";
+		};
+		EB08F1661031C6EA8C1A3540 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				444535EEAA9A15C397944149 /* Block.swift */,
+				31188B4DEEA366FB20A34B99 /* DailyPlan.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		327DB7E165730306A163E91E /* Timeblock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10D302C36BC205A03378033B /* Build configuration list for PBXNativeTarget "Timeblock" */;
+			buildPhases = (
+				23D9769FCC033040B1F82FB5 /* Sources */,
+				955F2FB87BD71B031DCBF11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timeblock;
+			packageProductDependencies = (
+			);
+			productName = Timeblock;
+			productReference = 2E927EA02E79EF49630BED09 /* Timeblock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CAE2A8B2BE4C3DBAF147141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					327DB7E165730306A163E91E = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB0CD15B169E40E18F4A8910 /* Build configuration list for PBXProject "Timeblock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 034CBADCC4638137FF038529;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 11200D4373F6204017404D1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				327DB7E165730306A163E91E /* Timeblock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		955F2FB87BD71B031DCBF11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EF0B94BF3ED25321E71D5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D9769FCC033040B1F82FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD283285E8189A0ADE1B9D1 /* AppDelegate.swift in Sources */,
+				A07064C63D360066C1914E65 /* Block.swift in Sources */,
+				149A729ECDB2D24E74F35D74 /* BlockEditorSheet.swift in Sources */,
+				0D6B5B4E1296C3B6D01979CA /* BlockRowView.swift in Sources */,
+				5FCD29298A986E3623BF0A44 /* DailyPlan.swift in Sources */,
+				4F189E6918AD35536D547D45 /* NotificationService.swift in Sources */,
+				1A5DBF386DC3A3038F8DBC20 /* PlanListView.swift in Sources */,
+				57E616EFCCAD0F362253C241 /* PlanRepository.swift in Sources */,
+				BFF914599986066AAA30215E /* PopoverRootView.swift in Sources */,
+				0D0CE9A318BB940E43ABB452 /* TimeblockApp.swift in Sources */,
+				74AC86F690A0555760D4F0D6 /* TimerEngine.swift in Sources */,
+				CBD8036B21B269A6FFC39D2C /* TimerHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		14C2431FE09F4F4B32A75F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		652ABDCD98B991596723E89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Timeblock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karlschneidewind.timeblock;
+				PRODUCT_NAME = Timeblock;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		A19CBAACEA3149B56FB48C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		BA1DF1771E89F288631FDF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Timeblock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karlschneidewind.timeblock;
+				PRODUCT_NAME = Timeblock;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10D302C36BC205A03378033B /* Build configuration list for PBXNativeTarget "Timeblock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1DF1771E89F288631FDF6E /* Debug */,
+				652ABDCD98B991596723E89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB0CD15B169E40E18F4A8910 /* Build configuration list for PBXProject "Timeblock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19CBAACEA3149B56FB48C34 /* Debug */,
+				14C2431FE09F4F4B32A75F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CAE2A8B2BE4C3DBAF147141 /* Project object */;
+}
